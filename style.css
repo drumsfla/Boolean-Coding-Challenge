@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blackbox {
+  background-color: rgba(0, 0, 0, 0.623);
+  height: auto;
+  width: 80%;
+  margin: auto;
+  margin-top: 42px;
+  padding: 82px;
+  border-radius: 15px;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  width: 280px;
+}
+
+header h1 {
+  color: #08dc04;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #08dc04;
+  width: 90%;
+  height: 70%;
+  padding: 10px;
+  border-radius: 17px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+section h3 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 3px;
+}
+
+section h3:before {
+  content: "\220E";
+  padding-right: 3px;
+}
+
+section p {
+  color: white;
+  margin-bottom: 5px;
+}
+
+section > p:before {
+  content: "\27A6";
+}
+
+#mezzo1 .boxricarica {
+  background-color: orange;
+  width: 363px;
+  height: 27px;
+  border-radius: 5px;
+}
+
+#mezzo2 .boxricarica {
+  background-color: rgb(7, 179, 30);
+  width: 650px;
+  height: 27px;
+  border-radius: 5px;
+}
+
+#mezzo3 .boxricarica {
+  background-color: rgb(224, 12, 12);
+  width: 140px;
+  height: 27px;
+  border-radius: 5px;
+}
+
+section {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  margin-top: 33px;
+}
